@@ -5,9 +5,25 @@
     "deploy": "vercel"
   },
   "dependencies": {
-    "hono": "^4.5.3"
+    "hono": "^4.5.3",
+    "@hono/node-server": "^1.12.0",
+    "@hono/swagger-ui": "^0.4.0",
+    "@hono/zod-openapi": "^0.15.0",
+    "@jup-ag/api": "^6.0.23",
+    "@mercurial-finance/dynamic-amm-sdk": "^0.4.23",
+    "@solana/actions": "^1.2.0",
+    "@solana/spl-token-registry": "^0.2.4574",
+    "@solana/web3.js": "^1.95.1",
+    "mathjs": "^13.0.0",
+    "sanctum-lst-list": "^0.2.13",
+    "sharp": "^0.33.4",
+    "zod": "^3.23.8"
   },
   "devDependencies": {
-    "vercel": "^32.4.1"
+    "vercel": "^32.4.1",
+    "@types/bn.js": "^5.1.5",
+    "@types/node": "^20.11.17",
+    "prettier": "^3.3.2",
+    "tsx": "^4.7.1"
   }
 }
